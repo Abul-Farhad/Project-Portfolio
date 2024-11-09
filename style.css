@@ -1,0 +1,120 @@
+/* Origin */
+body {
+    background-color: #171717;
+    color: #FFF;
+    font-family: "DM Sans";
+    margin:0 100px;
+
+}
+
+/* Header */
+.nav {
+    height: 10vh;
+    /* border: solid 1px white; */
+    /* box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1); */
+}
+
+.nav>.nav-items {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+
+.nav>.nav-items li {
+    margin-left: 20px;
+}
+
+.greeting {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+    /* line-height: normal; */
+    /* border: solid; */
+}
+
+.title {
+    color: var(--Gray-3, #828282);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 15px;
+    /* line-height: normal; */
+}
+
+.btn-primary {
+    width: 160px;
+    height: 60px;
+    background: #27AE60;
+}
+
+.btn-secondary {
+    width: 160px;
+    height: 59px;
+    background: #171717;
+    border: 1px solid var(--Gray-6, #F2F2F2);
+    margin-left: 7px;
+
+
+}
+
+.btn-text {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.profile-pic {
+    width: 640px;
+    height: 640px;
+    flex-shrink: 0;
+    border-radius: 650px;
+    border: 1px solid #202020;
+    background: rgba(30, 29, 29, 0.20);
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 170px; */
+    height: 90vh;
+    /* border: 1px #27AE60 solid; */
+}
+
+/* Rest of the Body */
+.about {
+    margin: 70px 200px 0px;
+}
+
+.about-title {
+    color: #FFF;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    /* margin: 50px; */
+    /* border: solid; */
+}
+
+.about-description {
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.about-info {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-info > .name-and-icon{
+    flex-shrink: 0;
+    text-align: center;
+}
