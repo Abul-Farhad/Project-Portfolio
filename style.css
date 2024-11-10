@@ -25,6 +25,10 @@ body {
     margin-left: 40px;
     float: right;
 }
+.nav a {
+    text-decoration: none;
+    color: #FFF;
+}
 
 .greeting {
     font-size: 50px;
@@ -52,8 +56,14 @@ body {
     transition: 0.3s;
     border: none;
 }
-.btn-primary:hover {opacity: 0.8}
-.btn-secondary:hover {opacity: 0.8}
+
+.btn-primary:hover {
+    opacity: 0.8
+}
+
+.btn-secondary:hover {
+    opacity: 0.8
+}
 
 .btn-secondary {
     width: 160px;
@@ -143,8 +153,9 @@ body {
 
 .skill-section {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-around; */
     margin: 90px 0px 0px;
+    justify-content: center;
 
 }
 
@@ -158,10 +169,7 @@ body {
     justify-content: center; */
     /* border: 1px white solid; */
     border-bottom: 5px solid #27AE60;
-}
-
-.my-skills {
-    margin: 90px 0px 0px;
+    margin: 0 40px;
 }
 
 
@@ -186,11 +194,50 @@ body {
     border: 1px solid wheat;
 } */
 
+.my-skills {
+    margin: 90px 0px 0px;
+    width: 100%;
+}
+
+
 .all-skills {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border: 1px solid var(--Gray-1, #333);
     background: #212121;
     padding: 5px;
     
+    
+
 }
+
+.achievements {
+    margin: 90px 0px 0px;
+}
+
+.achievements-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.achievements-table th,
+.achievements-table td {
+    padding: 12px 12px;
+    /* border-bottom: 2px solid grey; Adds green border only to the bottom */
+    text-align: left;
+}
+
+.achievements-table tr {
+    background-color: #212121;
+    font-size: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.achievements-table th {
+    background-color: #27AE60;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.achievements-table tr:hover {background-color: grey;}
+
